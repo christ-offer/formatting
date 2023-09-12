@@ -1,0 +1,17 @@
+[formatter.python]
+command = "black"
+includes = [ "*.py" ]
+
+[formatter.frontend]
+command = "prettier"
+options = ["--write"]
+includes = [ 
+	"*.html",
+	"*.js",
+	"*.json",
+	"*.ts",
+	"*.vue",
+	"*.css",
+	"*.md"
+	]
+
